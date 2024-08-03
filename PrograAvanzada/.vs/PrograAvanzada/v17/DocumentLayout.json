@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|c:\\users\\vboxuser\\documents\\github\\prograavanzada\\prograavanzada\\prograavanzada\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|c:\\users\\vboxuser\\documents\\github\\prograavanzada\\prograavanzada\\prograavanzada\\views\\product\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|solutionrelative:prograavanzada\\views\\product\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|c:\\users\\vboxuser\\documents\\github\\prograavanzada\\prograavanzada\\prograavanzada\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|solutionrelative:prograavanzada\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|c:\\users\\vboxuser\\documents\\github\\prograavanzada\\prograavanzada\\prograavanzada\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|solutionrelative:prograavanzada\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\prograavanzada\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|solutionrelative:prograavanzada\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|c:\\users\\vboxuser\\documents\\github\\prograavanzada\\prograavanzada\\prograavanzada\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|solutionrelative:prograavanzada\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|c:\\users\\vboxuser\\documents\\github\\prograavanzada\\prograavanzada\\prograavanzada\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|solutionrelative:prograavanzada\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\prograavanzada\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCFDE8A-943E-46BA-B8D0-5E9ADAB7B8AD}|PrograAvanzada\\PrograAvanzada.csproj|solutionrelative:prograavanzada\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -223,28 +239,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PrograAvanzada\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PrograAvanzada\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACgAAAAjAAAA",
+              "Title": "Agregar.cshtml",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Views\\Product\\Agregar.cshtml",
+              "RelativeDocumentMoniker": "PrograAvanzada\\Views\\Product\\Agregar.cshtml",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Views\\Product\\Agregar.cshtml",
+              "RelativeToolTip": "PrograAvanzada\\Views\\Product\\Agregar.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwB4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T15:06:20.372Z",
+              "WhenOpened": "2024-08-03T09:03:12.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "PrograAvanzada\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "PrograAvanzada\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T08:08:48.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PrograAvanzada\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PrograAvanzada\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T15:04:47.72Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrograAvanzada\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "PrograAvanzada\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T08:10:07.204Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrograAvanzada\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PrograAvanzada\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T02:31:05.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrograAvanzada\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "PrograAvanzada\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAAMAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T01:40:59.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "PrograAvanzada\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\vboxuser\\Documents\\GitHub\\PrograAvanzada\\PrograAvanzada\\PrograAvanzada\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "PrograAvanzada\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T01:40:25.133Z"
             }
           ]
         },
