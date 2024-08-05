@@ -1,8 +1,9 @@
-﻿using System;
-
-public class Class1
+﻿namespace PrograAvanzada.Models
 {
-	public Class1()
-	{
-	}
+    public class Review
+    {
+        public string CustomerName { get; set; }
+        public string Comment { get; set; }
+        public int Rating { get; set; }
+    }
 }

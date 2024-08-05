@@ -1,8 +1,20 @@
-﻿using System;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class Class1
+namespace PrograAvanzada.Models
 {
-	public Class1()
-	{
-	}
+    public class ReviewViewModel
+    {
+        [Required(ErrorMessage = "Please enter your name.")]
+        [Display(Name = "Name")]
+        public string CustomerName { get; set; }
+
+        [Required(ErrorMessage = "Please enter your comment.")]
+        [Display(Name = "Comment")]
+        public string Comment { get; set; }
+
+        [Required(ErrorMessage = "Please rate us.")]
+        [Range(1, 5, ErrorMessage = "Rating must be between 1 and 5.")]
+        [Display(Name = "Rating")]
+        public int Rating { get; set; }
+    }
 }

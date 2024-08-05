@@ -22,12 +22,12 @@
         .navbar {
             display: flex;
             justify-content: space-between;
-            align-items:center;
+            align-items: center;
             background-color: #fff8ee;
             padding: 10px;
             color: black;
             position: relative;
-            z-index:1;
+            z-index: 1;
         }
 
             .navbar ul {
@@ -38,11 +38,11 @@
             }
 
                 .navbar ul li {
-                    margin-right: 90px; /* Añadido margen derecho */
+                    margin-right: 90px;
                 }
 
                     .navbar ul li:last-child {
-                        margin-right: 0; /* Eliminar margen derecho del último elemento */
+                        margin-right: 0;
                     }
 
                     .navbar ul li a {
@@ -59,8 +59,8 @@
             display: flex;
             justify-content: space-between;
             padding: 20px;
-            align-items:center;
-            margin-top:100px;
+            align-items: center;
+            margin-top: 100px;
         }
 
         .left-content {
@@ -82,7 +82,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 gap: 10px;
-                justify-content:center;
+                justify-content: center;
             }
 
                 .left-content .explore-buttons button {
@@ -92,18 +92,18 @@
                     color: black;
                     border: none;
                     cursor: pointer;
-                    border-radius:10px;
+                    border-radius: 10px;
                 }
 
         .right-content {
             max-width: 50%;
-            text-align: center; /* Centrar contenido */
+            text-align: center;
         }
 
-        .right-content img {
-            max-width: 100%;
-            height: auto;
-        }
+            .right-content img {
+                max-width: 100%;
+                height: auto;
+            }
 
         .featured-section {
             padding: 20px;
@@ -148,7 +148,7 @@
         </ul>
         <div class="logo">Dreamscape</div>
         <ul class="right-nav">
-            <li><a href="#">About</a></li>
+            <li><a href="@Url.Action("About", "Home")">About</a></li>
             <li><a href="#">Login</a></li>
         </ul>
     </nav>
@@ -162,7 +162,7 @@
                 <button onclick="scrollToFeatured()">Explore Curiosities</button>
                 <button onclick="scrollToFeatured()">More</button>
             </div>
-            
+
         </div>
         <div class="right-content">
             <img src="https://img.freepik.com/vector-gratis/concepto-mercado-pulgas-dibujado-mano_23-2148814804.jpg" alt="Dreamscape Image">
@@ -177,6 +177,4 @@
     </script>
 </body>
 </html>
-
-
 

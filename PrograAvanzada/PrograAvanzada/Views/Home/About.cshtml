@@ -1,182 +1,58 @@
-﻿@using System.Web.Optimization
-
+﻿about.cshtml: @model PrograAvanzada.Models.ReviewViewModel
 @{
-    Layout = null;
-    ViewData["Title"] = "Home";
+    ViewData["Title"] = "About Us";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"] - Dreamscape</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff8ee;
-            margin: 0;
-            padding: 0;
-        }
+<div class="container">
+    <div class="about-content">
+        <h1>About Us</h1>
+        <p>
+            Welcome to Dreamscape. We are dedicated to providing you with the best shopping experience.
+            Dreamscape is your one-stop shop for a wide variety of products ranging from books to curiosities. Our mission is to offer a diverse selection of high-quality items that cater to all tastes and preferences. Whether you're looking for the latest bestseller, a rare collectible, or unique gifts, Dreamscape has something for everyone.
+            <br><br>
+            Our team is passionate about curating an extensive and eclectic collection of products, ensuring that each visit to Dreamscape is an adventure. We believe in the power of stories and the joy of discovery, and we're committed to creating a space where customers can explore, find inspiration, and experience the thrill of finding that perfect item.
+            <br><br>
+            At Dreamscape, customer satisfaction is our top priority. We strive to provide excellent service, a user-friendly shopping experience, and competitive prices. Our knowledgeable staff is always ready to assist you with any inquiries and help you find exactly what you're looking for.
+            <br><br>
+            Thank you for choosing Dreamscape. We look forward to being part of your shopping journey and helping you discover the magic in everyday moments.
+        </p>
+        <img src="https://pngimg.com/uploads/book/book_PNG51073.png" alt="About Image" style="max-width: 200px;">
 
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items:center;
-            background-color: #fff8ee;
-            padding: 10px;
-            color: black;
-            position: relative;
-            z-index:1;
-        }
-
-            .navbar ul {
-                list-style: none;
-                display: flex;
-                margin: 0;
-                padding: 0;
+        <h2>Customer Reviews</h2>
+        <ul>
+            @foreach (var review in ViewBag.Reviews as List<PrograAvanzada.Models.Review>)
+            {
+            <li>
+                <strong>@review.CustomerName</strong> (@review.Rating/5):
+                <br />
+                <p>@review.Comment</p>
+            </li>
             }
-
-                .navbar ul li {
-                    margin-right: 90px; /* Añadido margen derecho */
-                }
-
-                    .navbar ul li:last-child {
-                        margin-right: 0; /* Eliminar margen derecho del último elemento */
-                    }
-
-                    .navbar ul li a {
-                        color: black;
-                        text-decoration: none;
-                    }
-
-            .navbar .logo {
-                font-size: 24px;
-                font-weight: bold;
-            }
-
-        .container {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-            align-items:center;
-            margin-top:100px;
-        }
-
-        .left-content {
-            max-width: 50%;
-            text-align: center;
-        }
-
-            .left-content h1 {
-                font-size: 36px;
-                margin-bottom: 10px;
-            }
-
-            .left-content p {
-                font-size: 18px;
-                margin-bottom: 20px;
-            }
-
-            .left-content .explore-buttons {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 10px;
-                justify-content:center;
-            }
-
-                .left-content .explore-buttons button {
-                    padding: 10px 10px;
-                    font-size: 10px;
-                    background-color: #3aa7ab;
-                    color: black;
-                    border: none;
-                    cursor: pointer;
-                    border-radius:10px;
-                }
-
-        .right-content {
-            max-width: 50%;
-            text-align: center; /* Centrar contenido */
-        }
-
-        .right-content img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .featured-section {
-            padding: 20px;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-
-            .featured-section h2 {
-                margin-bottom: 20px;
-            }
-
-        .footer {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-            .footer a {
-                color: white;
-                text-decoration: none;
-                margin: 0 10px;
-            }
-
-            .footer .social-icons {
-                margin-top: 10px;
-            }
-
-                .footer .social-icons img {
-                    width: 24px;
-                    height: 24px;
-                    margin: 0 5px;
-                }
-    </style>
-</head>
-<body>
-
-    <nav class="navbar">
-        <ul class="left-nav">
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Catalogo</a></li>
         </ul>
-        <div class="logo">Dreamscape</div>
-        <ul class="right-nav">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Login</a></li>
-        </ul>
-    </nav>
 
-    <div class="container">
-        <div class="left-content">
-            <h1>Welcome to Dreamscape</h1>
-            <p>Discover a world of stores</p>
-            <div class="explore-buttons">
-                <button onclick="scrollToFeatured()">Explore Books</button>
-                <button onclick="scrollToFeatured()">Explore Curiosities</button>
-                <button onclick="scrollToFeatured()">More</button>
-            </div>
-            
+        <h2>Add Your Review</h2>
+        @using (Html.BeginForm("AddReview", "Home", FormMethod.Post))
+        {
+        @Html.AntiForgeryToken()
+        <div>
+            @Html.LabelFor(model => model.CustomerName)
+            @Html.TextBoxFor(model => model.CustomerName, new { @class = "form-control" })
         </div>
-        <div class="right-content">
-            <img src="https://img.freepik.com/vector-gratis/concepto-mercado-pulgas-dibujado-mano_23-2148814804.jpg" alt="Dreamscape Image">
+        <div>
+            @Html.LabelFor(model => model.Comment)
+            @Html.TextAreaFor(model => model.Comment, new { @class = "form-control" })
         </div>
+        <div>
+            @Html.LabelFor(model => model.Rating)
+            @Html.TextBoxFor(model => model.Rating, new { @class = "form-control" })
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Review</button>
+        }
+
+        @if (ViewBag.Message != null)
+        {
+        <p>@ViewBag.Message</p>
+        }
     </div>
-
-
-    <script>
-        function scrollToFeatured() {
-            document.getElementById('featured').scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
-</body>
-</html>
-
-
-
+</div>
